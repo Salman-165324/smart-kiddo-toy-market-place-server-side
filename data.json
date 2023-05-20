@@ -1,0 +1,80 @@
+[
+    {
+        "picture_url": "https://i.ibb.co/Wpj771Z/alphabet-Blocks.jpg",
+        "name": "Alphabet Blocks K15",
+        "detail_description": "Introducing our amazing Alphabet Blocks - the ultimate educational toy for young learners! Crafted with care from premium wood, these blocks are designed to captivate children's imagination and ignite their love for language. Each block showcases a beautifully engraved letter or combination of letters, allowing kids to construct words, master spelling, and expand their vocabulary. With their stackable and manipulative nature, our Alphabet Blocks foster fine motor skills, creativity, and cognitive development. Get ready to witness your child's confidence soar as they explore the fascinating world of letters and words with our exceptional Alphabet Blocks!",
+        "seller": "Toys R Us",
+        "seller_email": "toysrus@email.com",
+        "price": 19.99,
+        "rating": 4.5,
+        "category": "Language Toys",
+        "available_quantity": 10
+    },
+    {
+        "picture_url": "https://i.ibb.co/7vgPHfH/math-Flash-Card.jpg",
+        "name": "Math Flash Cards MS3",
+        "detail_description": "Discover the power of learning with our Math Flash Cards! These essential educational tools are carefully crafted to make math fun and engaging for young minds. Each card features vibrant colors, clear numbers, and stimulating visuals, making learning a breeze. With a wide range of topics, from addition and subtraction to multiplication and division, these flashcards provide a solid foundation in mathematics. Watch as your child's confidence grows with each problem solved and witness their mathematical abilities flourish. Bring the excitement of numbers into your home or classroom with our exceptional Math Flash Cards and unlock a world of mathematical brilliance!",
+        "seller": "Walmart",
+        "seller_email": "walmart@email.com",
+        "price": 9.99,
+        "rating": 4.0,
+        "category": "Math Toys",
+        "available_quantity": 20
+    },
+    {
+        "picture_url": "https://i.ibb.co/s3pSQd1/engineering-set.jpg",
+        "name": "Engineering Set ES5",
+        "detail_description": "Ignite the spark of innovation with our Engineering Set! Designed to inspire young engineers, this comprehensive kit is a gateway to endless possibilities. Crafted with high-quality materials, each piece is engineered for durability and precision. With gears, connectors, and rods, budding builders can construct impressive structures, machines, and inventions. The set encourages hands-on exploration, problem-solving, and critical thinking skills. From simple prototypes to complex designs, our Engineering Set empowers young minds to think like engineers and embrace the thrill of creating. Watch their imagination soar as they engineer their dreams into reality with our exceptional Engineering Set!",
+        "seller": "Amazon",
+        "seller_email": "amazon@email.com",
+        "price": 49.99,
+        "rating": 4.2,
+        "category": "Engineering Toys",
+        "available_quantity": 5
+    },
+    {
+        "picture_url": "https://i.ibb.co/qWjXfM6/math-puzzle-toy.jpg",
+        "name": "Math Puzzle MP13",
+        "detail_description": "Embark on a journey of mind-bending fun with our captivating Puzzle collection! Crafted with meticulous attention to detail, each puzzle piece is a work of art. Explore stunning landscapes, mesmerizing patterns, and captivating images that come to life as you piece them together. With varying difficulty levels, our puzzles challenge and engage both young and old minds alike. Delve into a world of problem-solving, spatial awareness, and patience as you unlock the beauty concealed within each puzzle. Whether alone or with loved ones, our Puzzle collection promises hours of immersive entertainment and a sense of accomplishment with every completed masterpiece. Get ready to piece together unforgettable moments with our extraordinary Puzzle collection!",
+        "seller": "Target",
+        "seller_email": "target@email.com",
+        "price": 14.99,
+        "rating": 4.3,
+        "category": "Math Toys",
+        "available_quantity": 15
+    },
+    {
+        "picture_url": "https://i.ibb.co/xmrc9X8/Language-Learning-Book.jpg",
+        "name": "Language Learning Coloring Book",
+        "detail_description": "Introducing our immersive Language Learning Coloring Book - a gateway to mastering new languages! Immerse yourself in a world of linguistic exploration as you color captivating illustrations. Each page combines language learning and artistic expression, making learning a joyous and creative experience. With engaging themes and high-quality illustrations, our coloring book enhances vocabulary, pronunciation, and cultural understanding. Whether you're a beginner or advanced learner, our Language Learning Coloring Book is a valuable tool for language acquisition. Expand your horizons and embrace the beauty of language with this unique and educational coloring book.",
+        "seller": "Barnes & Noble",
+        "seller_email": "barnesandnoble@email.com",
+        "price": 4.99,
+        "rating": 4.4,
+        "category": "Language Toys",
+        "available_quantity": 25
+    },
+    {
+        "picture_url": "https://i.ibb.co/ftQQDZ7/Engineering-Building-Blocks.jpg",
+        "name": "Building Blocks",
+        "detail_description": "Unleash the power of imagination with our Building Blocks! Crafted with precision and durability, these versatile blocks are the ultimate tool for young architects and builders. Each block is designed to interlock seamlessly, allowing endless possibilities for construction and creativity. From towering skyscrapers to imaginative structures, these blocks provide a solid foundation for spatial awareness, problem-solving, and fine motor skills. Watch as your child's imagination comes to life, building worlds and exploring engineering principles. Our Building Blocks inspire teamwork, critical thinking, and a love for learning. With every stack and connection, young minds develop a sense of accomplishment and confidence. Prepare for hours of interactive play and watch your child's dreams take shape with our exceptional Building Blocks!",
+        "seller": "Kroger",
+        "seller_email": "kroger@email.com",
+        "price": 12.99,
+        "rating": 4.1,
+        "category": "Engineering Toys",
+        "available_quantity": 10
+    },
+    {
+        "picture_url": "https://i.ibb.co/R9P2QKF/science-kit.jpg",
+        "name": "Science Kit SK2",
+        "detail_description": "Introducing our remarkable Science Kit - a gateway to captivating hands-on discovery! Unleash the wonders of the natural world with engaging experiments and activities. Delve into the realms of chemistry, physics, biology, and more, igniting curiosity and fostering a love for scientific exploration. With a diverse range of experiments, clear instructions, and high-quality materials, our Science Kit provides an immersive learning experience that develops critical thinking, problem-solving, and experimental skills. Prepare for endless 'Eureka!' moments as young minds unravel the mysteries of science and embark on an exciting journey of discovery.",
+        "seller": "Educational Insights",
+        "seller_email": "educationalinsights@email.com",
+        "price": 29.99,
+        "rating": 4.6,
+        "category": "Science Toys",
+        "available_quantity": 10
+    }
+
+]
