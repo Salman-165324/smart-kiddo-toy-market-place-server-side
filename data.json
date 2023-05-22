@@ -75,6 +75,41 @@
         "rating": 4.6,
         "category": "Science Toys",
         "available_quantity": 10
+    }, 
+    {
+        "picture_url": "https://i.ibb.co/RPG2ZjF/rebote-Arm-Kit.jpg",
+        "name": "Robotic Arm Kit",
+        "detail_description": "Unleash your inner engineer with our Robotic Arm Kit! This innovative toy is designed to introduce children to the exciting world of robotics and automation. The kit includes all the necessary components to build a fully functional robotic arm that can perform various tasks and movements. With an easy-to-follow instruction manual, kids can assemble the arm and learn about mechanical engineering and programming concepts along the way. They can control the arm's movements using a remote control or even program it to perform specific actions. Our Robotic Arm Kit sparks curiosity, creativity, and problem-solving skills, allowing young engineers to explore the possibilities of robotics firsthand.",
+        "seller": "Toy World",
+        "seller_email": "info@toyworld.com",
+        "price": 59.99,
+        "rating": 4.7,
+        "category": "Engineering Toys",
+        "available_quantity": 10
+    }, 
+    {
+        "picture_url": "https://i.ibb.co/x73qzfS/word-Puzzle-Wonderland.jpg",
+        "name": "Word Puzzle Wonderland",
+        "detail_description": "Embark on a language adventure with our Word Puzzle Wonderland! This captivating toy is designed to enhance vocabulary, spelling, and language skills in a fun and interactive way. The set includes a variety of word puzzles, letter tiles, and picture cards. Kids can arrange the letter tiles to form words and match them to the corresponding pictures. With different difficulty levels, this toy grows with your child's language abilities. It encourages creativity, problem-solving, and linguistic development. Whether playing alone or with friends, Word Puzzle Wonderland provides hours of educational entertainment that will expand your child's language proficiency and ignite their love for words!",
+        "seller": "Educational Emporium",
+        "seller_email": "info@educationalemporium.com",
+        "price": 29.99,
+        "rating": 4.5,
+        "category": "Language Toys",
+        "available_quantity": 8
+    },
+    {
+        "picture_url": "https://i.ibb.co/FzT9f1Q/math-Box-Deluxe.jpg",
+        "name": "Math Blocks Deluxe",
+        "detail_description": "Introduce your child to the world of numbers and mathematical concepts with our Math Blocks Deluxe set. This engaging toy is designed to make learning math fun and interactive. The set includes colorful blocks with numbers, arithmetic symbols, and shapes that children can use to create equations, patterns, and geometric structures. By manipulating the blocks, kids can explore addition, subtraction, multiplication, and division in a hands-on way. The set also comes with activity cards that provide guidance for various math games and puzzles. Math Blocks Deluxe stimulates critical thinking, problem-solving, and numerical reasoning skills. It's the perfect toy to inspire a love for math in young minds!",
+        "seller": "Math Genius Toys",
+        "seller_email": "info@mathgeniustoys.com",
+        "price": 39.99,
+        "rating": 4.8,
+        "category": "Math Toys",
+        "available_quantity": 12
     }
+    
+    
 
 ]
