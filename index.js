@@ -45,6 +45,14 @@ async function run() {
 
     })
 
+    app.get('/toysBySearch', async(req, res) => {
+
+        const searchTerm = req.query.inputText; 
+        const query = { name: { $regex: ".*" + searchTerm + ".*", $options: "i" } }
+        const result = await toysCollection.find(query).toArray();
+        res.send(result);
+    })
+
     app.get('/searchByCategory', async (req, res) => {
 
       const searchItem = req.query.category;
