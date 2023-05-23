@@ -76,6 +76,16 @@ async function run() {
     })
 
 
+    app.post('/addToys', async(req, res) => {
+
+        const toyData = req.body; 
+        console.log(toyData); 
+        const result = await toysCollection.insertOne(toyData); 
+        res.send(result);
+
+    })
+
+
 
 
 
