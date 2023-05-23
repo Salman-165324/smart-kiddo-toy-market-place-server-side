@@ -84,6 +84,24 @@ async function run() {
 
     })
 
+    app.get('/sortPriceInDescendingOrder', async(req, res) => {
+
+      const sellerEmail = req.query.email;
+      const query = { seller_email: sellerEmail };
+      const result = await toysCollection.find(query).sort({ price: -1 }).toArray()
+      res.send(result); 
+
+    })
+
+    app.get('/sortPriceInAscendingOrder', async(req, res) => {
+
+      const sellerEmail = req.query.email;
+      const query = { seller_email: sellerEmail };
+      const result = await toysCollection.find(query).sort({ price: 1 }).toArray()
+      res.send(result); 
+
+    })
+
 
     app.post('/addToys', async (req, res) => {
 
