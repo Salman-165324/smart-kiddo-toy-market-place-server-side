@@ -81,14 +81,14 @@ async function run() {
       const query = { seller_email: sellerEmail };
       const result = await toysCollection.find(query).toArray();
       res.send(result);
-      console.log(sellerEmail);
+
     })
 
 
     app.post('/addToys', async (req, res) => {
 
       const toyData = req.body;
-      console.log(toyData);
+
       const result = await toysCollection.insertOne(toyData);
       res.send(result);
 
@@ -97,7 +97,7 @@ async function run() {
     app.patch('/updateToy', async (req, res) => {
 
       const toyDataToUpdate = req.body;
-      console.log(toyDataToUpdate);
+
       const filter = {_id: new ObjectId(toyDataToUpdate.id)};
       const update = {
         $set: {
@@ -106,14 +106,21 @@ async function run() {
           detail_description: toyDataToUpdate.detail_description
         }
       };
-      console.log(update);
+ 
       const result = await toysCollection.updateOne(filter, update);
       res.send(result);
 
 
     })
 
+    app.delete('/deleteAToy', async(req, res) => {
 
+        const id = req.query.id; 
+        console.log(id);
+        const query ={_id: new ObjectId(id)}
+        const result = await toysCollection.deleteOne(query); 
+        res.send(result);
+    })
 
   } finally {
     // Ensures that the client will close when you finish/error
