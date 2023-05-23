@@ -75,6 +75,15 @@ async function run() {
      
     })
 
+    app.get('/searchBySeller', async(req,res) => {
+
+        const sellerEmail = req.query.email; 
+        const query = {sellerEmail: sellerEmail};
+        const result = await toysCollection.find(query).toArray(); 
+        res.send(result);
+        console.log(sellerEmail);
+    })
+
 
     app.post('/addToys', async(req, res) => {
 
