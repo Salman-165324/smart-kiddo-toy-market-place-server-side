@@ -45,12 +45,12 @@ async function run() {
 
     })
 
-    app.get('/toysBySearch', async(req, res) => {
+    app.get('/toysBySearch', async (req, res) => {
 
-        const searchTerm = req.query.inputText; 
-        const query = { name: { $regex: ".*" + searchTerm + ".*", $options: "i" } }
-        const result = await toysCollection.find(query).toArray();
-        res.send(result);
+      const searchTerm = req.query.inputText;
+      const query = { name: { $regex: ".*" + searchTerm + ".*", $options: "i" } }
+      const result = await toysCollection.find(query).toArray();
+      res.send(result);
     })
 
     app.get('/searchByCategory', async (req, res) => {
@@ -65,32 +65,51 @@ async function run() {
 
     })
 
-    app.get('/toyDetails/:id', async(req, res) => {
+    app.get('/toyDetails/:id', async (req, res) => {
 
-        const id = req.params.id; 
-       
-        const query = {_id: new ObjectId(id)}
-        const result = await toysCollection.findOne(query);
-        res.send(result); 
-     
+      const id = req.params.id;
+
+      const query = { _id: new ObjectId(id) }
+      const result = await toysCollection.findOne(query);
+      res.send(result);
+
     })
 
-    app.get('/searchBySeller', async(req,res) => {
+    app.get('/searchBySeller', async (req, res) => {
 
-        const sellerEmail = req.query.email; 
-        const query = {seller_email: sellerEmail};
-        const result = await toysCollection.find(query).toArray(); 
-        res.send(result);
-        console.log(sellerEmail);
+      const sellerEmail = req.query.email;
+      const query = { seller_email: sellerEmail };
+      const result = await toysCollection.find(query).toArray();
+      res.send(result);
+      console.log(sellerEmail);
     })
 
 
-    app.post('/addToys', async(req, res) => {
+    app.post('/addToys', async (req, res) => {
 
-        const toyData = req.body; 
-        console.log(toyData); 
-        const result = await toysCollection.insertOne(toyData); 
-        res.send(result);
+      const toyData = req.body;
+      console.log(toyData);
+      const result = await toysCollection.insertOne(toyData);
+      res.send(result);
+
+    })
+
+    app.patch('/updateToy', async (req, res) => {
+
+      const toyDataToUpdate = req.body;
+      console.log(toyDataToUpdate);
+      const filter = {_id: new ObjectId(toyDataToUpdate.id)};
+      const update = {
+        $set: {
+          price: toyDataToUpdate.price,
+          available_quantity:toyDataToUpdate.available_quantity ,
+          detail_description: toyDataToUpdate.detail_description
+        }
+      };
+      console.log(update);
+      const result = await toysCollection.updateOne(filter, update);
+      res.send(result);
+
 
     })
 
